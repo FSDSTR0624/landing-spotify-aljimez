@@ -1,0 +1,169 @@
+body{
+    background: #EDC4C8;
+    background: -moz-linear-gradient(top, #EDC4C8 0%, #121212 15%, #121212 100%);
+    background: -webkit-linear-gradient(top, #EDC4C8 0%, #121212 15%, #121212 100%);
+    background: linear-gradient(to bottom, #EDC4C8 0%, #121212 15%, #121212 100%);
+    background-attachment:scroll;
+}
+.cont{
+    display: flex;
+    justify-content: space-around;
+}
+.nav{
+    background-color: #121212;
+    
+    justify-content: space-around;
+ position:fixed;
+ top: 0;
+  left: 0;
+  width: 100%;
+ padding: 10px; /* opcional */
+  z-index: 1000; /* opcional */
+}
+.cont{
+    display: inline-block;
+    padding: 10px 10px 10px 10px ;
+    color:white
+}
+.cont:hover{
+   color:  #3e8e41;;
+}
+.articles{
+    display: flex;
+    justify-content:space-around;
+}
+.fstart{
+    background-color:#242424 ;
+    border-radius: 10%;
+    padding: 10px;
+    margin: 10px;
+}
+.scart{
+    background-color:#242424 ;
+    border-radius: 10%;
+    padding: 10px;
+    margin: 10px;
+}
+.trart{
+    background-color:#242424 ;
+    border-radius: 10%;
+    padding: 10px;
+    margin: 10px;
+}
+.quart{
+    background-color:#242424 ;
+    border-radius: 10%;
+    padding: 10px;
+    margin: 10px;
+}
+.extracart{
+display: flex;
+justify-content: center;
+margin-left: 200px;
+margin-right: 200px;
+}
+.fstcont{
+    font-size: 20px;
+}
+.maintext{
+    color: white;
+    font-size: 35px;
+}
+.subtext{
+    color: white;
+
+}
+.maincont{
+    display: flex;
+    margin: 80px;
+}
+.pricetable{
+    color: white;
+}
+
+
+.midbox{
+    display: flex;
+
+}
+.pricetable{
+    display: flex;
+    justify-content: center;
+ 
+}
+a{
+    color: white;
+}
+/* Dropdown Button */
+.dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #282828;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #000000;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {color: #3e8e41;}
+
+
+
+  .gooho:hover{
+    background-color: #313131;
+  }
+  .reho:hover{
+    background-color: #1A1A1A;
+  }
+
+  
+  .drpdfaq{
+    background-color: #313131;
+    color: white;
+  }
+  th,td{
+    border-bottom: 1px solid white;
+  }
+
+  table{
+    text-align: left;
+    border-collapse: collapse;
+    margin: 0 0 1em 0;
+    caption-side: top;
+  }
+  .dropdownfaq{
+    width: 100%;
+  }
+
+  .text{
+    display: flex;
+    justify-content: center;
+  }
