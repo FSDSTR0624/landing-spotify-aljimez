@@ -92,6 +92,7 @@ body {
 .maincont {
     display: flex;
     margin: 80px;
+    padding-top:150px ;
 }
 
 .pricetable {
@@ -233,7 +234,6 @@ color:white
     background-color: #000000;
     margin: 20px 20px 20px 20px;
     border-style: none;
-    
 }
 
 .commpoly{
@@ -246,3 +246,15 @@ color:white
     color: white;
 }
 
+.termslist{
+    background-color: #000000;
+}
+.divelem{
+    display: flex;
+    justify-content: space-between;
+
+}
+.navbarcont{
+    margin-left: 50px;
+    padding-left: 50px;
+}
