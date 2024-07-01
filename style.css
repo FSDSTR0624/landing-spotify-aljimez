@@ -14,7 +14,7 @@ body {
 .nav {
     background-color: #121212;
     justify-content: space-around;
-    position: fixed;
+    position:absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -32,35 +32,22 @@ body {
 
 .cont:hover {
     color: #3e8e41;
-    ;
+    
 }
 
 .articles {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+   
 }
 
-.fstart {
+
+.card{
     background-color: #242424;
     border-radius: 10%;
     padding: 10px;
     margin: 10px;
 }
-
-.scart {
-    background-color: #242424;
-    border-radius: 10%;
-    padding: 10px;
-    margin: 10px;
-}
-
-.trart {
-    background-color: #242424;
-    border-radius: 10%;
-    padding: 10px;
-    margin: 10px;
-}
-
 .quart {
     background-color: #242424;
     border-radius: 10%;
@@ -82,6 +69,7 @@ body {
 .maintext {
     color: white;
     font-size: 35px;
+    padding-bottom: 20px;
 }
 
 .subtext {
@@ -102,13 +90,12 @@ body {
 
 .midbox {
     display: flex;
-
+justify-content: space-around;
 }
 
 .pricetable {
     display: flex;
     justify-content: center;
-
 }
 
 a {
@@ -192,11 +179,18 @@ table {
     width: 100%;
 }
 
-.text {
+.textfaq1 {
     display: flex;
     justify-content: center;
 }
-
+.textfaq2 {
+    display: flex;
+    justify-content: center;
+}
+.textfaq3 {
+    display: flex;
+    justify-content: center;
+}
 details>p {
     background-color: #242424;
     padding: 4px;
@@ -257,4 +251,8 @@ color:white
 .navbarcont{
     margin-left: 50px;
     padding-left: 50px;
+}
+.paymeth{
+    display: flex;
+    justify-content: center;
 }
