@@ -6,9 +6,9 @@ body {
     background-attachment: scroll;
 }
 
-.cont {
-    display: flex;
-    justify-content: space-around;
+.freebut{
+
+    background-color: #FFD2D7; color: black; border-radius: 26px; padding: 15px 15px 15px 15px; 
 }
 
 .nav {
@@ -18,10 +18,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 10px;
-    /* opcional */
-    z-index: 1000;
-    /* opcional */
+     
 }
 
 .cont {
@@ -224,10 +221,11 @@ color:white
 }
 .policy{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     background-color: #000000;
     margin: 20px 20px 20px 20px;
     border-style: none;
+    width: 100%;
 }
 
 .commpoly{
